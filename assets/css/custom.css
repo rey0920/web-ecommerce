@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  background-color: #434343;
+}
+
+/* Index */
+
+.category a:hover {
+  background-color: #FDB857;
+  padding: 5px 13px 5px 13px;
+  border-radius: 10px;
+}
+
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+.nav-item .nav-link:hover {
+  text-decoration: underline;
+}
+
+.text-primary {
+  color: #FDB857 !important;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #FDB857 !important;
+  border: 1px solid #FDB857 !important;
+}
+
+.bg-dark-800 {
+  background-color: #2B2B2B;
+}
+
+.card {
+  background-color: #2B2B2B;
+  border: none;
+  height: 270px;
+}
+
+.content {
+  margin-bottom: 27px;
+}
+
+.content .row {
+  margin-top: 12px;
+}
+
+.card img {
+  width: 230px;
+  height: 135px;
+  background: cover;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+a .card img:hover {
+  width: 240px;
+  height: 155px;
+  object-fit: cover;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* End Index */
+
+/* Detail Produk */
+
+.breadcumb {
+  color: #9c9c9c;
+}
+
+.img-produk img {
+  object-fit: cover;
+  background-size: cover;
+}
+
+.detail-produk .harga {
+  color: #0d6efd;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.detail-produk form {
+  margin-top: 32px;
+}
+
+/* End Detail Produk */
+
+/* Checkout */
+
+tbody tr th img {
+  object-fit: cover;
+  background-size: cover;
+  width: 170px;
+  height: 100px;
+}
